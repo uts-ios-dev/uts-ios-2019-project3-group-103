@@ -28,7 +28,7 @@ extension OAuthViewController {
         navigationItem.leftBarButtonItem = UIBarButtonItem.init(title: "Close", style: .plain, target: self, action: #selector(closeItemClick))
         
 //        2.设置右侧的item
-        navigationItem.rightBarButtonItem = UIBarButtonItem.init(title: "Fill", style: .plain, target: self, action: #selector(fillItemClick))
+        navigationItem.rightBarButtonItem = UIBarButtonItem.init(title: "Next", style: .plain, target: self, action: #selector(fillItemClick))
         
 //        3.设置标题
         title = "登录界面"

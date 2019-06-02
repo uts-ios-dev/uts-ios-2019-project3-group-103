@@ -1,3 +1,11 @@
+//
+//  AppDelegate.swift
+//  撕麦耳微搏
+//
+//  Created by 范智超 on 2018/3/30.
+//  Copyright © 2019年 撕麦耳. All rights reserved.
+//
+
 import UIKit
 
 @UIApplicationMain

@@ -19,9 +19,9 @@ class TwitterLogVC: UIViewController {
 extension TwitterLogVC {
     private func setupNavigationBar() {
         navigationItem.leftBarButtonItem = UIBarButtonItem.init(title: "Back", style: .plain, target: self, action: #selector(closeItemClick))
-        navigationItem.rightBarButtonItem = UIBarButtonItem.init(title: "Fill", style: .plain, target: self, action: #selector(fillItemClick))
+        navigationItem.rightBarButtonItem = UIBarButtonItem.init(title: "Next", style: .plain, target: self, action: #selector(fillItemClick))
         
-        title = "登录界面"
+        title = "Twitter"
     }
     
     private func loadPage() {
