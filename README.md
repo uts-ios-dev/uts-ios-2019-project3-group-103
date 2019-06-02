@@ -1,7 +1,7 @@
 # Twibo client
 
-Hi I am Zeren.
-My number is 12802690.
+Hi I am Zeren.  
+My number is 12802690.  
 From Monday class 4pm.  
 My group just me.  
 There is my ios project called Twibo.  
