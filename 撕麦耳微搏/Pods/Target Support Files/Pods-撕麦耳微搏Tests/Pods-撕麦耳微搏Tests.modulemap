@@ -1,0 +1,6 @@
+framework module Pods______Tests {
+  umbrella header "Pods-撕麦耳微搏Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

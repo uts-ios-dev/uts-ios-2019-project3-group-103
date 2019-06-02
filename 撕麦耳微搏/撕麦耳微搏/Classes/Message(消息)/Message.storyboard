@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="pKN-pR-pp5">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Weibo Messages-->
+        <scene sceneID="q4r-di-fdA">
+            <objects>
+                <tableViewController id="rc7-me-ymw" customClass="MessageViewController" customModule="撕麦耳微搏" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="hab-u7-Dm7">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <connections>
+                            <outlet property="dataSource" destination="rc7-me-ymw" id="GQe-Z5-IkV"/>
+                            <outlet property="delegate" destination="rc7-me-ymw" id="qi5-xz-SUd"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Weibo Messages" id="rWF-wC-jJF"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cgS-yg-LBw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1257" y="128"/>
+        </scene>
+        <!--消息-->
+        <scene sceneID="lyw-kJ-5RW">
+            <objects>
+                <navigationController id="pKN-pR-pp5" userLabel="消息" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Message" image="tabbar_message_center" id="Qjs-g4-Qun"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="IBe-kQ-QUg">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="rc7-me-ymw" kind="relationship" relationship="rootViewController" id="xm3-jS-MNn"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jR8-NJ-fpl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="303" y="128"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="tabbar_message_center" width="30" height="30"/>
+    </resources>
+</document>

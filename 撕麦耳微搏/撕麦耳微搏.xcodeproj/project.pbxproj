@@ -1,0 +1,1116 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		024F339ECD028D36F6C5D73C /* Pods______UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AFE4B815A2E3F7889689CD1 /* Pods______UITests.framework */; };
+		A4047EED2074B882009E2299 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4047EEC2074B882009E2299 /* Common.swift */; };
+		A40D9A55208D83B4008A05BF /* EmoticonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40D9A4C208D83B3008A05BF /* EmoticonViewController.swift */; };
+		A40D9A56208D83B4008A05BF /* Emoticons.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A40D9A4D208D83B3008A05BF /* Emoticons.bundle */; };
+		A40D9A57208D83B4008A05BF /* EmoticonAttachment.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40D9A4E208D83B3008A05BF /* EmoticonAttachment.swift */; };
+		A40D9A58208D83B4008A05BF /* UITextView-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40D9A4F208D83B3008A05BF /* UITextView-Extension.swift */; };
+		A40D9A59208D83B4008A05BF /* EmoticonViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40D9A50208D83B3008A05BF /* EmoticonViewCell.swift */; };
+		A40D9A5A208D83B4008A05BF /* Emoticon.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40D9A52208D83B3008A05BF /* Emoticon.swift */; };
+		A40D9A5B208D83B4008A05BF /* EmoticonManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40D9A53208D83B3008A05BF /* EmoticonManager.swift */; };
+		A40D9A5C208D83B4008A05BF /* EmonticoPackage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40D9A54208D83B3008A05BF /* EmonticoPackage.swift */; };
+		A42AEDBA2085F814002BCDF4 /* picCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42AEDB92085F814002BCDF4 /* picCollectionView.swift */; };
+		A451AD27207B57A400F3DB4E /* UserAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = A451AD26207B57A400F3DB4E /* UserAccount.swift */; };
+		A451AD29207B76A500F3DB4E /* UserAccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A451AD28207B76A500F3DB4E /* UserAccountViewModel.swift */; };
+		A453A7BA2074B0B70049446E /* OAuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A453A7B82074B0B70049446E /* OAuthViewController.swift */; };
+		A453A7BB2074B0B70049446E /* OAuthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A453A7B92074B0B70049446E /* OAuthViewController.xib */; };
+		A45725F220883CDE0071D0F3 /* ComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45725F020883CDE0071D0F3 /* ComposeViewController.swift */; };
+		A45725F320883CDE0071D0F3 /* ComposeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A45725F120883CDE0071D0F3 /* ComposeViewController.xib */; };
+		A45725F520883FFD0071D0F3 /* ComposeTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45725F420883FFD0071D0F3 /* ComposeTitleView.swift */; };
+		A45725F7208846070071D0F3 /* composeTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45725F6208846070071D0F3 /* composeTextView.swift */; };
+		A45725FC208880C30071D0F3 /* PicPickerCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45725FB208880C30071D0F3 /* PicPickerCollectionView.swift */; };
+		A45725FF2088868F0071D0F3 /* PicPickerViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45725FD2088868F0071D0F3 /* PicPickerViewCell.swift */; };
+		A45726002088868F0071D0F3 /* PicPickerViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A45725FE2088868F0071D0F3 /* PicPickerViewCell.xib */; };
+		A45B0B63207C574D006E391B /* NetworkTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45B0B62207C574D006E391B /* NetworkTools.swift */; };
+		A45B0B67207C5CC7006E391B /* WelecomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45B0B65207C5CC7006E391B /* WelecomeViewController.swift */; };
+		A45B0B68207C5CC7006E391B /* WelecomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A45B0B66207C5CC7006E391B /* WelecomeViewController.xib */; };
+		A45D0CB52071E24C00E37BF4 /* UIButton-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45D0CB42071E24C00E37BF4 /* UIButton-Extension.swift */; };
+		A45D0CB820720E4E00E37BF4 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45D0CB720720E4E00E37BF4 /* BaseViewController.swift */; };
+		A45D0CBA2072107E00E37BF4 /* VisitorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45D0CB92072107E00E37BF4 /* VisitorView.swift */; };
+		A45D0CBC207210A100E37BF4 /* VisitorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A45D0CBB207210A100E37BF4 /* VisitorView.xib */; };
+		A45D0CBE20722FC700E37BF4 /* UIBarButtonItem-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45D0CBD20722FC700E37BF4 /* UIBarButtonItem-Extension.swift */; };
+		A45D0CC0207234B100E37BF4 /* TitleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45D0CBF207234B100E37BF4 /* TitleButton.swift */; };
+		A4621AAD207DAF6300A3F220 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4621AAC207DAF6300A3F220 /* User.swift */; };
+		A4621AAF207DBD2000A3F220 /* StatusViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4621AAE207DBD2000A3F220 /* StatusViewModel.swift */; };
+		A4621AB1207DE4F300A3F220 /* HomeViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4621AB0207DE4F300A3F220 /* HomeViewCell.swift */; };
+		A46C0416206E45E9001ACA46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46C0415206E45E9001ACA46 /* AppDelegate.swift */; };
+		A46C041B206E45E9001ACA46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A46C0419206E45E9001ACA46 /* Main.storyboard */; };
+		A46C041D206E45E9001ACA46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A46C041C206E45E9001ACA46 /* Assets.xcassets */; };
+		A46C0420206E45E9001ACA46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A46C041E206E45E9001ACA46 /* LaunchScreen.storyboard */; };
+		A46C044A206E48AD001ACA46 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46C0449206E48AD001ACA46 /* MainViewController.swift */; };
+		A46C044E206E48D6001ACA46 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46C044D206E48D6001ACA46 /* MessageViewController.swift */; };
+		A46C0450206E48E8001ACA46 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46C044F206E48E8001ACA46 /* HomeViewController.swift */; };
+		A46C0452206E48F3001ACA46 /* DiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46C0451206E48F3001ACA46 /* DiscoverViewController.swift */; };
+		A46C0454206E4901001ACA46 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46C0453206E4901001ACA46 /* ProfileViewController.swift */; };
+		A46C0460206E4C6A001ACA46 /* SiMaiEr.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A46C045F206E4C6A001ACA46 /* SiMaiEr.storyboard */; };
+		A46C0462206E4F4B001ACA46 /* MainVCSettings.json in Resources */ = {isa = PBXBuildFile; fileRef = A46C0461206E4F4B001ACA46 /* MainVCSettings.json */; };
+		A4D894BC20731F0600ABC10D /* PopowerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D894BA20731F0600ABC10D /* PopowerViewController.swift */; };
+		A4D894BD20731F0600ABC10D /* PopowerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4D894BB20731F0600ABC10D /* PopowerViewController.xib */; };
+		A4D894BF2073252000ABC10D /* SiMaiErPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D894BE2073252000ABC10D /* SiMaiErPresentationController.swift */; };
+		A4D894C120735C9000ABC10D /* PopoverAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D894C020735C9000ABC10D /* PopoverAnimator.swift */; };
+		A4F230B8207CA35E00540959 /* Statuses.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F230B7207CA35E00540959 /* Statuses.swift */; };
+		A4F230F6207CCA7700540959 /* NSDate-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F230F5207CCA7700540959 /* NSDate-Extension.swift */; };
+		B6BBE08F22A3C6CE00D25190 /* TwitterLogVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BBE08C22A3C6CE00D25190 /* TwitterLogVC.swift */; };
+		B6BBE09022A3C6CE00D25190 /* TwitterLogVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6BBE08D22A3C6CE00D25190 /* TwitterLogVC.xib */; };
+		B6BBE09122A3C6CE00D25190 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BBE08E22A3C6CE00D25190 /* LoginVC.swift */; };
+		B6BBE09322A3C7A900D25190 /* BaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BBE09222A3C7A900D25190 /* BaseVC.swift */; };
+		CCC14C96CB1D7BE728A56E6D /* Pods______Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 499BB2F91C96963349E4CB91 /* Pods______Tests.framework */; };
+		EF70651A20714DB30081DE41 /* Null.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF70651920714DB30081DE41 /* Null.storyboard */; };
+		EFF8A37B206E9743002C4A11 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFF8A37A206E9743002C4A11 /* Home.storyboard */; };
+		EFF8A37D206E975A002C4A11 /* Message.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFF8A37C206E975A002C4A11 /* Message.storyboard */; };
+		EFF8A37F206E976F002C4A11 /* Discover.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFF8A37E206E976F002C4A11 /* Discover.storyboard */; };
+		EFF8A381206E9788002C4A11 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFF8A380206E9788002C4A11 /* Profile.storyboard */; };
+		F1BAECB39BCAC76B97D1F779 /* Pods______.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F010F3FFFB8626E30071136 /* Pods______.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A46C0427206E45E9001ACA46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A46C040A206E45E9001ACA46 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A46C0411206E45E9001ACA46;
+			remoteInfo = "撕麦耳微搏";
+		};
+		A46C0432206E45E9001ACA46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A46C040A206E45E9001ACA46 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A46C0411206E45E9001ACA46;
+			remoteInfo = "撕麦耳微搏";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		042FBFBE1E3E8A62C6C2FA22 /* Pods-撕麦耳微搏.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-撕麦耳微搏.debug.xcconfig"; path = "Pods/Target Support Files/Pods-撕麦耳微搏/Pods-撕麦耳微搏.debug.xcconfig"; sourceTree = "<group>"; };
+		1350ED3D8096A231D3B7A799 /* Pods-撕麦耳微搏UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-撕麦耳微搏UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-撕麦耳微搏UITests/Pods-撕麦耳微搏UITests.release.xcconfig"; sourceTree = "<group>"; };
+		3AFE4B815A2E3F7889689CD1 /* Pods______UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods______UITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		499BB2F91C96963349E4CB91 /* Pods______Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods______Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F010F3FFFB8626E30071136 /* Pods______.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods______.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		524550F8F0D8C78C77ED9FC4 /* Pods-撕麦耳微搏Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-撕麦耳微搏Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-撕麦耳微搏Tests/Pods-撕麦耳微搏Tests.release.xcconfig"; sourceTree = "<group>"; };
+		90658B1C89F38487563C46C6 /* Pods-撕麦耳微搏UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-撕麦耳微搏UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-撕麦耳微搏UITests/Pods-撕麦耳微搏UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9A56EA4C1BA3DF3E3C920995 /* Pods-撕麦耳微搏.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-撕麦耳微搏.release.xcconfig"; path = "Pods/Target Support Files/Pods-撕麦耳微搏/Pods-撕麦耳微搏.release.xcconfig"; sourceTree = "<group>"; };
+		A4047EEC2074B882009E2299 /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		A40D9A4C208D83B3008A05BF /* EmoticonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmoticonViewController.swift; sourceTree = "<group>"; };
+		A40D9A4D208D83B3008A05BF /* Emoticons.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Emoticons.bundle; sourceTree = "<group>"; };
+		A40D9A4E208D83B3008A05BF /* EmoticonAttachment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmoticonAttachment.swift; sourceTree = "<group>"; };
+		A40D9A4F208D83B3008A05BF /* UITextView-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextView-Extension.swift"; sourceTree = "<group>"; };
+		A40D9A50208D83B3008A05BF /* EmoticonViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmoticonViewCell.swift; sourceTree = "<group>"; };
+		A40D9A52208D83B3008A05BF /* Emoticon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Emoticon.swift; sourceTree = "<group>"; };
+		A40D9A53208D83B3008A05BF /* EmoticonManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmoticonManager.swift; sourceTree = "<group>"; };
+		A40D9A54208D83B3008A05BF /* EmonticoPackage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmonticoPackage.swift; sourceTree = "<group>"; };
+		A42AEDB92085F814002BCDF4 /* picCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = picCollectionView.swift; sourceTree = "<group>"; };
+		A451AD26207B57A400F3DB4E /* UserAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAccount.swift; sourceTree = "<group>"; };
+		A451AD28207B76A500F3DB4E /* UserAccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAccountViewModel.swift; sourceTree = "<group>"; };
+		A453A7B82074B0B70049446E /* OAuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OAuthViewController.swift; sourceTree = "<group>"; };
+		A453A7B92074B0B70049446E /* OAuthViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OAuthViewController.xib; sourceTree = "<group>"; };
+		A45725F020883CDE0071D0F3 /* ComposeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeViewController.swift; sourceTree = "<group>"; };
+		A45725F120883CDE0071D0F3 /* ComposeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ComposeViewController.xib; sourceTree = "<group>"; };
+		A45725F420883FFD0071D0F3 /* ComposeTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeTitleView.swift; sourceTree = "<group>"; };
+		A45725F6208846070071D0F3 /* composeTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = composeTextView.swift; sourceTree = "<group>"; };
+		A45725FB208880C30071D0F3 /* PicPickerCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicPickerCollectionView.swift; sourceTree = "<group>"; };
+		A45725FD2088868F0071D0F3 /* PicPickerViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicPickerViewCell.swift; sourceTree = "<group>"; };
+		A45725FE2088868F0071D0F3 /* PicPickerViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PicPickerViewCell.xib; sourceTree = "<group>"; };
+		A45B0B62207C574D006E391B /* NetworkTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkTools.swift; sourceTree = "<group>"; };
+		A45B0B65207C5CC7006E391B /* WelecomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelecomeViewController.swift; sourceTree = "<group>"; };
+		A45B0B66207C5CC7006E391B /* WelecomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WelecomeViewController.xib; sourceTree = "<group>"; };
+		A45D0CB42071E24C00E37BF4 /* UIButton-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton-Extension.swift"; sourceTree = "<group>"; };
+		A45D0CB720720E4E00E37BF4 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		A45D0CB92072107E00E37BF4 /* VisitorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitorView.swift; sourceTree = "<group>"; };
+		A45D0CBB207210A100E37BF4 /* VisitorView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VisitorView.xib; sourceTree = "<group>"; };
+		A45D0CBD20722FC700E37BF4 /* UIBarButtonItem-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem-Extension.swift"; sourceTree = "<group>"; };
+		A45D0CBF207234B100E37BF4 /* TitleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleButton.swift; sourceTree = "<group>"; };
+		A4621AAC207DAF6300A3F220 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		A4621AAE207DBD2000A3F220 /* StatusViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusViewModel.swift; sourceTree = "<group>"; };
+		A4621AB0207DE4F300A3F220 /* HomeViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewCell.swift; sourceTree = "<group>"; };
+		A46C0412206E45E9001ACA46 /* 撕麦耳微搏.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "撕麦耳微搏.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A46C0415206E45E9001ACA46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A46C041A206E45E9001ACA46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A46C041C206E45E9001ACA46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A46C041F206E45E9001ACA46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A46C0421206E45E9001ACA46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A46C0426206E45E9001ACA46 /* 撕麦耳微搏Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "撕麦耳微搏Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A46C0431206E45E9001ACA46 /* 撕麦耳微搏UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "撕麦耳微搏UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A46C0449206E48AD001ACA46 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		A46C044D206E48D6001ACA46 /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		A46C044F206E48E8001ACA46 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		A46C0451206E48F3001ACA46 /* DiscoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverViewController.swift; sourceTree = "<group>"; };
+		A46C0453206E4901001ACA46 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		A46C045F206E4C6A001ACA46 /* SiMaiEr.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SiMaiEr.storyboard; sourceTree = "<group>"; };
+		A46C0461206E4F4B001ACA46 /* MainVCSettings.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MainVCSettings.json; sourceTree = "<group>"; };
+		A4D894BA20731F0600ABC10D /* PopowerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopowerViewController.swift; sourceTree = "<group>"; };
+		A4D894BB20731F0600ABC10D /* PopowerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PopowerViewController.xib; sourceTree = "<group>"; };
+		A4D894BE2073252000ABC10D /* SiMaiErPresentationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiMaiErPresentationController.swift; sourceTree = "<group>"; };
+		A4D894C020735C9000ABC10D /* PopoverAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverAnimator.swift; sourceTree = "<group>"; };
+		A4F230B7207CA35E00540959 /* Statuses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Statuses.swift; sourceTree = "<group>"; };
+		A4F230F5207CCA7700540959 /* NSDate-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDate-Extension.swift"; sourceTree = "<group>"; };
+		B6BBE08C22A3C6CE00D25190 /* TwitterLogVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterLogVC.swift; sourceTree = "<group>"; };
+		B6BBE08D22A3C6CE00D25190 /* TwitterLogVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TwitterLogVC.xib; sourceTree = "<group>"; };
+		B6BBE08E22A3C6CE00D25190 /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		B6BBE09222A3C7A900D25190 /* BaseVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseVC.swift; sourceTree = "<group>"; };
+		B8B62BC8682137AF202B096A /* Pods-撕麦耳微搏Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-撕麦耳微搏Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-撕麦耳微搏Tests/Pods-撕麦耳微搏Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		EF70651920714DB30081DE41 /* Null.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Null.storyboard; sourceTree = "<group>"; };
+		EFF8A37A206E9743002C4A11 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		EFF8A37C206E975A002C4A11 /* Message.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Message.storyboard; sourceTree = "<group>"; };
+		EFF8A37E206E976F002C4A11 /* Discover.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Discover.storyboard; sourceTree = "<group>"; };
+		EFF8A380206E9788002C4A11 /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A46C040F206E45E9001ACA46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1BAECB39BCAC76B97D1F779 /* Pods______.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A46C0423206E45E9001ACA46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCC14C96CB1D7BE728A56E6D /* Pods______Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A46C042E206E45E9001ACA46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				024F339ECD028D36F6C5D73C /* Pods______UITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30E5E4AC0ACC9D0A3E95BB07 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				042FBFBE1E3E8A62C6C2FA22 /* Pods-撕麦耳微搏.debug.xcconfig */,
+				9A56EA4C1BA3DF3E3C920995 /* Pods-撕麦耳微搏.release.xcconfig */,
+				B8B62BC8682137AF202B096A /* Pods-撕麦耳微搏Tests.debug.xcconfig */,
+				524550F8F0D8C78C77ED9FC4 /* Pods-撕麦耳微搏Tests.release.xcconfig */,
+				90658B1C89F38487563C46C6 /* Pods-撕麦耳微搏UITests.debug.xcconfig */,
+				1350ED3D8096A231D3B7A799 /* Pods-撕麦耳微搏UITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5857853C0944ABC4E00F68B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F010F3FFFB8626E30071136 /* Pods______.framework */,
+				499BB2F91C96963349E4CB91 /* Pods______Tests.framework */,
+				3AFE4B815A2E3F7889689CD1 /* Pods______UITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A40D9A4B208D83B3008A05BF /* Emoticon */ = {
+			isa = PBXGroup;
+			children = (
+				A40D9A4C208D83B3008A05BF /* EmoticonViewController.swift */,
+				A40D9A4D208D83B3008A05BF /* Emoticons.bundle */,
+				A40D9A4E208D83B3008A05BF /* EmoticonAttachment.swift */,
+				A40D9A4F208D83B3008A05BF /* UITextView-Extension.swift */,
+				A40D9A50208D83B3008A05BF /* EmoticonViewCell.swift */,
+				A40D9A51208D83B3008A05BF /* Model */,
+			);
+			path = Emoticon;
+			sourceTree = "<group>";
+		};
+		A40D9A51208D83B3008A05BF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A40D9A52208D83B3008A05BF /* Emoticon.swift */,
+				A40D9A53208D83B3008A05BF /* EmoticonManager.swift */,
+				A40D9A54208D83B3008A05BF /* EmonticoPackage.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A453A7B72074B08A0049446E /* OAuth */ = {
+			isa = PBXGroup;
+			children = (
+				A453A7B82074B0B70049446E /* OAuthViewController.swift */,
+				A453A7B92074B0B70049446E /* OAuthViewController.xib */,
+				A451AD26207B57A400F3DB4E /* UserAccount.swift */,
+				A451AD28207B76A500F3DB4E /* UserAccountViewModel.swift */,
+			);
+			path = OAuth;
+			sourceTree = "<group>";
+		};
+		A45725EF20883CC20071D0F3 /* Compose(发布) */ = {
+			isa = PBXGroup;
+			children = (
+				A45725F820887FBF0071D0F3 /* PicPicker */,
+				A45725F020883CDE0071D0F3 /* ComposeViewController.swift */,
+				A45725F120883CDE0071D0F3 /* ComposeViewController.xib */,
+				A45725F420883FFD0071D0F3 /* ComposeTitleView.swift */,
+				A45725F6208846070071D0F3 /* composeTextView.swift */,
+			);
+			path = "Compose(发布)";
+			sourceTree = "<group>";
+		};
+		A45725F820887FBF0071D0F3 /* PicPicker */ = {
+			isa = PBXGroup;
+			children = (
+				A45725FB208880C30071D0F3 /* PicPickerCollectionView.swift */,
+				A45725FD2088868F0071D0F3 /* PicPickerViewCell.swift */,
+				A45725FE2088868F0071D0F3 /* PicPickerViewCell.xib */,
+			);
+			path = PicPicker;
+			sourceTree = "<group>";
+		};
+		A45B0B64207C5C78006E391B /* Welecome */ = {
+			isa = PBXGroup;
+			children = (
+				A45B0B65207C5CC7006E391B /* WelecomeViewController.swift */,
+				A45B0B66207C5CC7006E391B /* WelecomeViewController.xib */,
+			);
+			path = Welecome;
+			sourceTree = "<group>";
+		};
+		A45D0CB22071E17E00E37BF4 /* Tools(工具) */ = {
+			isa = PBXGroup;
+			children = (
+				A40D9A4B208D83B3008A05BF /* Emoticon */,
+				A45D0CB32071E17E00E37BF4 /* Category */,
+			);
+			path = "Tools(工具)";
+			sourceTree = "<group>";
+		};
+		A45D0CB32071E17E00E37BF4 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				A4F230F5207CCA7700540959 /* NSDate-Extension.swift */,
+				A45D0CB42071E24C00E37BF4 /* UIButton-Extension.swift */,
+				A45D0CBD20722FC700E37BF4 /* UIBarButtonItem-Extension.swift */,
+				A45D0CBF207234B100E37BF4 /* TitleButton.swift */,
+				A4047EEC2074B882009E2299 /* Common.swift */,
+				A45B0B62207C574D006E391B /* NetworkTools.swift */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		A45D0CB620720E0900E37BF4 /* Visitor */ = {
+			isa = PBXGroup;
+			children = (
+				B6BBE09222A3C7A900D25190 /* BaseVC.swift */,
+				A45D0CB720720E4E00E37BF4 /* BaseViewController.swift */,
+				A45D0CB92072107E00E37BF4 /* VisitorView.swift */,
+				A45D0CBB207210A100E37BF4 /* VisitorView.xib */,
+			);
+			path = Visitor;
+			sourceTree = "<group>";
+		};
+		A45D0CC120723D1C00E37BF4 /* UIPopower */ = {
+			isa = PBXGroup;
+			children = (
+				A4D894BA20731F0600ABC10D /* PopowerViewController.swift */,
+				A4D894BB20731F0600ABC10D /* PopowerViewController.xib */,
+				A4D894BE2073252000ABC10D /* SiMaiErPresentationController.swift */,
+				A4D894C020735C9000ABC10D /* PopoverAnimator.swift */,
+			);
+			path = UIPopower;
+			sourceTree = "<group>";
+		};
+		A46C0409206E45E9001ACA46 = {
+			isa = PBXGroup;
+			children = (
+				A46C0414206E45E9001ACA46 /* 撕麦耳微搏 */,
+				A46C0413206E45E9001ACA46 /* Products */,
+				30E5E4AC0ACC9D0A3E95BB07 /* Pods */,
+				5857853C0944ABC4E00F68B9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A46C0413206E45E9001ACA46 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A46C0412206E45E9001ACA46 /* 撕麦耳微搏.app */,
+				A46C0426206E45E9001ACA46 /* 撕麦耳微搏Tests.xctest */,
+				A46C0431206E45E9001ACA46 /* 撕麦耳微搏UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A46C0414206E45E9001ACA46 /* 撕麦耳微搏 */ = {
+			isa = PBXGroup;
+			children = (
+				EF70651920714DB30081DE41 /* Null.storyboard */,
+				A46C0443206E464F001ACA46 /* Classes */,
+				A46C0415206E45E9001ACA46 /* AppDelegate.swift */,
+				A46C0419206E45E9001ACA46 /* Main.storyboard */,
+				A46C045F206E4C6A001ACA46 /* SiMaiEr.storyboard */,
+				A46C041C206E45E9001ACA46 /* Assets.xcassets */,
+				A46C041E206E45E9001ACA46 /* LaunchScreen.storyboard */,
+				A46C0421206E45E9001ACA46 /* Info.plist */,
+			);
+			path = "撕麦耳微搏";
+			sourceTree = "<group>";
+		};
+		A46C0443206E464F001ACA46 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B6BBE08B22A3C6CE00D25190 /* Twtitter */,
+				A45725EF20883CC20071D0F3 /* Compose(发布) */,
+				A46C0448206E464F001ACA46 /* Main(主要) */,
+				A46C0444206E464F001ACA46 /* Home(首页) */,
+				A46C0445206E464F001ACA46 /* Message(消息) */,
+				A46C0447206E464F001ACA46 /* Discover(发现) */,
+				A46C0446206E464F001ACA46 /* Profile(我) */,
+				A45D0CB22071E17E00E37BF4 /* Tools(工具) */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A46C0444206E464F001ACA46 /* Home(首页) */ = {
+			isa = PBXGroup;
+			children = (
+				A45D0CC120723D1C00E37BF4 /* UIPopower */,
+				A4F230B6207CA30900540959 /* HomeModel */,
+				EFF8A37A206E9743002C4A11 /* Home.storyboard */,
+				A46C044F206E48E8001ACA46 /* HomeViewController.swift */,
+				A4621AB0207DE4F300A3F220 /* HomeViewCell.swift */,
+				A42AEDB92085F814002BCDF4 /* picCollectionView.swift */,
+			);
+			path = "Home(首页)";
+			sourceTree = "<group>";
+		};
+		A46C0445206E464F001ACA46 /* Message(消息) */ = {
+			isa = PBXGroup;
+			children = (
+				EFF8A37C206E975A002C4A11 /* Message.storyboard */,
+				A46C044D206E48D6001ACA46 /* MessageViewController.swift */,
+			);
+			path = "Message(消息)";
+			sourceTree = "<group>";
+		};
+		A46C0446206E464F001ACA46 /* Profile(我) */ = {
+			isa = PBXGroup;
+			children = (
+				EFF8A380206E9788002C4A11 /* Profile.storyboard */,
+				A46C0453206E4901001ACA46 /* ProfileViewController.swift */,
+			);
+			path = "Profile(我)";
+			sourceTree = "<group>";
+		};
+		A46C0447206E464F001ACA46 /* Discover(发现) */ = {
+			isa = PBXGroup;
+			children = (
+				EFF8A37E206E976F002C4A11 /* Discover.storyboard */,
+				A46C0451206E48F3001ACA46 /* DiscoverViewController.swift */,
+			);
+			path = "Discover(发现)";
+			sourceTree = "<group>";
+		};
+		A46C0448206E464F001ACA46 /* Main(主要) */ = {
+			isa = PBXGroup;
+			children = (
+				A45B0B64207C5C78006E391B /* Welecome */,
+				A453A7B72074B08A0049446E /* OAuth */,
+				A45D0CB620720E0900E37BF4 /* Visitor */,
+				A46C0449206E48AD001ACA46 /* MainViewController.swift */,
+				A46C0461206E4F4B001ACA46 /* MainVCSettings.json */,
+			);
+			path = "Main(主要)";
+			sourceTree = "<group>";
+		};
+		A4F230B6207CA30900540959 /* HomeModel */ = {
+			isa = PBXGroup;
+			children = (
+				A4F230B7207CA35E00540959 /* Statuses.swift */,
+				A4621AAC207DAF6300A3F220 /* User.swift */,
+				A4621AAE207DBD2000A3F220 /* StatusViewModel.swift */,
+			);
+			path = HomeModel;
+			sourceTree = "<group>";
+		};
+		B6BBE08B22A3C6CE00D25190 /* Twtitter */ = {
+			isa = PBXGroup;
+			children = (
+				B6BBE08C22A3C6CE00D25190 /* TwitterLogVC.swift */,
+				B6BBE08D22A3C6CE00D25190 /* TwitterLogVC.xib */,
+				B6BBE08E22A3C6CE00D25190 /* LoginVC.swift */,
+			);
+			path = Twtitter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A46C0411206E45E9001ACA46 /* 撕麦耳微搏 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A46C043A206E45E9001ACA46 /* Build configuration list for PBXNativeTarget "撕麦耳微搏" */;
+			buildPhases = (
+				9E187376AFAFBD9CA642A870 /* [CP] Check Pods Manifest.lock */,
+				A46C040E206E45E9001ACA46 /* Sources */,
+				A46C040F206E45E9001ACA46 /* Frameworks */,
+				A46C0410206E45E9001ACA46 /* Resources */,
+				2CB611DF92E438DC27687299 /* [CP] Embed Pods Frameworks */,
+				E2DEDAB6F7F68324CD61FE03 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "撕麦耳微搏";
+			productName = "撕麦耳微搏";
+			productReference = A46C0412206E45E9001ACA46 /* 撕麦耳微搏.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A46C0425206E45E9001ACA46 /* 撕麦耳微搏Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A46C043D206E45E9001ACA46 /* Build configuration list for PBXNativeTarget "撕麦耳微搏Tests" */;
+			buildPhases = (
+				D3DE6F69841F5DEBE9AB1CA6 /* [CP] Check Pods Manifest.lock */,
+				A46C0422206E45E9001ACA46 /* Sources */,
+				A46C0423206E45E9001ACA46 /* Frameworks */,
+				A46C0424206E45E9001ACA46 /* Resources */,
+				235427A767A4C5ED520046EF /* [CP] Embed Pods Frameworks */,
+				6A9CB1F1DFCB339D59340152 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A46C0428206E45E9001ACA46 /* PBXTargetDependency */,
+			);
+			name = "撕麦耳微搏Tests";
+			productName = "撕麦耳微搏Tests";
+			productReference = A46C0426206E45E9001ACA46 /* 撕麦耳微搏Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A46C0430206E45E9001ACA46 /* 撕麦耳微搏UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A46C0440206E45E9001ACA46 /* Build configuration list for PBXNativeTarget "撕麦耳微搏UITests" */;
+			buildPhases = (
+				9E2B88902E0D61722C06C5D1 /* [CP] Check Pods Manifest.lock */,
+				A46C042D206E45E9001ACA46 /* Sources */,
+				A46C042E206E45E9001ACA46 /* Frameworks */,
+				A46C042F206E45E9001ACA46 /* Resources */,
+				05B25EFF4C6EFD3DC4BCC74F /* [CP] Embed Pods Frameworks */,
+				83B2C285371E3A7DBC1F2162 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A46C0433206E45E9001ACA46 /* PBXTargetDependency */,
+			);
+			name = "撕麦耳微搏UITests";
+			productName = "撕麦耳微搏UITests";
+			productReference = A46C0431206E45E9001ACA46 /* 撕麦耳微搏UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A46C040A206E45E9001ACA46 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "撕麦耳";
+				TargetAttributes = {
+					A46C0411206E45E9001ACA46 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					A46C0425206E45E9001ACA46 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A46C0411206E45E9001ACA46;
+					};
+					A46C0430206E45E9001ACA46 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A46C0411206E45E9001ACA46;
+					};
+				};
+			};
+			buildConfigurationList = A46C040D206E45E9001ACA46 /* Build configuration list for PBXProject "撕麦耳微搏" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A46C0409206E45E9001ACA46;
+			productRefGroup = A46C0413206E45E9001ACA46 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A46C0411206E45E9001ACA46 /* 撕麦耳微搏 */,
+				A46C0425206E45E9001ACA46 /* 撕麦耳微搏Tests */,
+				A46C0430206E45E9001ACA46 /* 撕麦耳微搏UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A46C0410206E45E9001ACA46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A46C0420206E45E9001ACA46 /* LaunchScreen.storyboard in Resources */,
+				B6BBE09022A3C6CE00D25190 /* TwitterLogVC.xib in Resources */,
+				EFF8A37F206E976F002C4A11 /* Discover.storyboard in Resources */,
+				A46C041D206E45E9001ACA46 /* Assets.xcassets in Resources */,
+				A45B0B68207C5CC7006E391B /* WelecomeViewController.xib in Resources */,
+				A46C0460206E4C6A001ACA46 /* SiMaiEr.storyboard in Resources */,
+				EFF8A37B206E9743002C4A11 /* Home.storyboard in Resources */,
+				A453A7BB2074B0B70049446E /* OAuthViewController.xib in Resources */,
+				A4D894BD20731F0600ABC10D /* PopowerViewController.xib in Resources */,
+				A40D9A56208D83B4008A05BF /* Emoticons.bundle in Resources */,
+				A45D0CBC207210A100E37BF4 /* VisitorView.xib in Resources */,
+				A46C041B206E45E9001ACA46 /* Main.storyboard in Resources */,
+				EFF8A381206E9788002C4A11 /* Profile.storyboard in Resources */,
+				A45726002088868F0071D0F3 /* PicPickerViewCell.xib in Resources */,
+				EF70651A20714DB30081DE41 /* Null.storyboard in Resources */,
+				A46C0462206E4F4B001ACA46 /* MainVCSettings.json in Resources */,
+				A45725F320883CDE0071D0F3 /* ComposeViewController.xib in Resources */,
+				EFF8A37D206E975A002C4A11 /* Message.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A46C0424206E45E9001ACA46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A46C042F206E45E9001ACA46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05B25EFF4C6EFD3DC4BCC74F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-撕麦耳微搏UITests/Pods-撕麦耳微搏UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		235427A767A4C5ED520046EF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-撕麦耳微搏Tests/Pods-撕麦耳微搏Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2CB611DF92E438DC27687299 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-撕麦耳微搏/Pods-撕麦耳微搏-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-撕麦耳微搏/Pods-撕麦耳微搏-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A9CB1F1DFCB339D59340152 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-撕麦耳微搏Tests/Pods-撕麦耳微搏Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83B2C285371E3A7DBC1F2162 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-撕麦耳微搏UITests/Pods-撕麦耳微搏UITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E187376AFAFBD9CA642A870 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-撕麦耳微搏-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E2B88902E0D61722C06C5D1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-撕麦耳微搏UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3DE6F69841F5DEBE9AB1CA6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-撕麦耳微搏Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2DEDAB6F7F68324CD61FE03 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-撕麦耳微搏/Pods-撕麦耳微搏-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A46C040E206E45E9001ACA46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4047EED2074B882009E2299 /* Common.swift in Sources */,
+				A4D894BF2073252000ABC10D /* SiMaiErPresentationController.swift in Sources */,
+				A40D9A5C208D83B4008A05BF /* EmonticoPackage.swift in Sources */,
+				A45725FF2088868F0071D0F3 /* PicPickerViewCell.swift in Sources */,
+				B6BBE08F22A3C6CE00D25190 /* TwitterLogVC.swift in Sources */,
+				A451AD27207B57A400F3DB4E /* UserAccount.swift in Sources */,
+				A45725FC208880C30071D0F3 /* PicPickerCollectionView.swift in Sources */,
+				A40D9A58208D83B4008A05BF /* UITextView-Extension.swift in Sources */,
+				A45D0CBE20722FC700E37BF4 /* UIBarButtonItem-Extension.swift in Sources */,
+				A40D9A59208D83B4008A05BF /* EmoticonViewCell.swift in Sources */,
+				A40D9A5B208D83B4008A05BF /* EmoticonManager.swift in Sources */,
+				A45725F520883FFD0071D0F3 /* ComposeTitleView.swift in Sources */,
+				A46C0450206E48E8001ACA46 /* HomeViewController.swift in Sources */,
+				A40D9A57208D83B4008A05BF /* EmoticonAttachment.swift in Sources */,
+				A451AD29207B76A500F3DB4E /* UserAccountViewModel.swift in Sources */,
+				A45D0CB52071E24C00E37BF4 /* UIButton-Extension.swift in Sources */,
+				A4F230B8207CA35E00540959 /* Statuses.swift in Sources */,
+				A453A7BA2074B0B70049446E /* OAuthViewController.swift in Sources */,
+				A45725F220883CDE0071D0F3 /* ComposeViewController.swift in Sources */,
+				A46C044A206E48AD001ACA46 /* MainViewController.swift in Sources */,
+				A45D0CC0207234B100E37BF4 /* TitleButton.swift in Sources */,
+				A46C0452206E48F3001ACA46 /* DiscoverViewController.swift in Sources */,
+				A4F230F6207CCA7700540959 /* NSDate-Extension.swift in Sources */,
+				A45725F7208846070071D0F3 /* composeTextView.swift in Sources */,
+				A45B0B63207C574D006E391B /* NetworkTools.swift in Sources */,
+				A46C0454206E4901001ACA46 /* ProfileViewController.swift in Sources */,
+				A40D9A55208D83B4008A05BF /* EmoticonViewController.swift in Sources */,
+				A4D894C120735C9000ABC10D /* PopoverAnimator.swift in Sources */,
+				B6BBE09322A3C7A900D25190 /* BaseVC.swift in Sources */,
+				A4621AAF207DBD2000A3F220 /* StatusViewModel.swift in Sources */,
+				A4621AB1207DE4F300A3F220 /* HomeViewCell.swift in Sources */,
+				A45D0CB820720E4E00E37BF4 /* BaseViewController.swift in Sources */,
+				A45D0CBA2072107E00E37BF4 /* VisitorView.swift in Sources */,
+				A4D894BC20731F0600ABC10D /* PopowerViewController.swift in Sources */,
+				A42AEDBA2085F814002BCDF4 /* picCollectionView.swift in Sources */,
+				B6BBE09122A3C6CE00D25190 /* LoginVC.swift in Sources */,
+				A40D9A5A208D83B4008A05BF /* Emoticon.swift in Sources */,
+				A46C0416206E45E9001ACA46 /* AppDelegate.swift in Sources */,
+				A46C044E206E48D6001ACA46 /* MessageViewController.swift in Sources */,
+				A45B0B67207C5CC7006E391B /* WelecomeViewController.swift in Sources */,
+				A4621AAD207DAF6300A3F220 /* User.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A46C0422206E45E9001ACA46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A46C042D206E45E9001ACA46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A46C0428206E45E9001ACA46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A46C0411206E45E9001ACA46 /* 撕麦耳微搏 */;
+			targetProxy = A46C0427206E45E9001ACA46 /* PBXContainerItemProxy */;
+		};
+		A46C0433206E45E9001ACA46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A46C0411206E45E9001ACA46 /* 撕麦耳微搏 */;
+			targetProxy = A46C0432206E45E9001ACA46 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A46C0419206E45E9001ACA46 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A46C041A206E45E9001ACA46 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A46C041E206E45E9001ACA46 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A46C041F206E45E9001ACA46 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A46C0438206E45E9001ACA46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A46C0439206E45E9001ACA46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A46C043B206E45E9001ACA46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 042FBFBE1E3E8A62C6C2FA22 /* Pods-撕麦耳微搏.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W7F3L5SU67;
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = NO;
+				INFOPLIST_FILE = "撕麦耳微搏/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sodatune;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A46C043C206E45E9001ACA46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A56EA4C1BA3DF3E3C920995 /* Pods-撕麦耳微搏.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W7F3L5SU67;
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = NO;
+				INFOPLIST_FILE = "撕麦耳微搏/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sodatune;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A46C043E206E45E9001ACA46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8B62BC8682137AF202B096A /* Pods-撕麦耳微搏Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "撕麦耳微搏Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SiMaiEr.-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/撕麦耳微搏.app/撕麦耳微搏";
+			};
+			name = Debug;
+		};
+		A46C043F206E45E9001ACA46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 524550F8F0D8C78C77ED9FC4 /* Pods-撕麦耳微搏Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "撕麦耳微搏Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SiMaiEr.-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/撕麦耳微搏.app/撕麦耳微搏";
+			};
+			name = Release;
+		};
+		A46C0441206E45E9001ACA46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90658B1C89F38487563C46C6 /* Pods-撕麦耳微搏UITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "撕麦耳微搏UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SiMaiEr.-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "撕麦耳微搏";
+			};
+			name = Debug;
+		};
+		A46C0442206E45E9001ACA46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1350ED3D8096A231D3B7A799 /* Pods-撕麦耳微搏UITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "撕麦耳微搏UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SiMaiEr.-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "撕麦耳微搏";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A46C040D206E45E9001ACA46 /* Build configuration list for PBXProject "撕麦耳微搏" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A46C0438206E45E9001ACA46 /* Debug */,
+				A46C0439206E45E9001ACA46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A46C043A206E45E9001ACA46 /* Build configuration list for PBXNativeTarget "撕麦耳微搏" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A46C043B206E45E9001ACA46 /* Debug */,
+				A46C043C206E45E9001ACA46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A46C043D206E45E9001ACA46 /* Build configuration list for PBXNativeTarget "撕麦耳微搏Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A46C043E206E45E9001ACA46 /* Debug */,
+				A46C043F206E45E9001ACA46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A46C0440206E45E9001ACA46 /* Build configuration list for PBXNativeTarget "撕麦耳微搏UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A46C0441206E45E9001ACA46 /* Debug */,
+				A46C0442206E45E9001ACA46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A46C040A206E45E9001ACA46 /* Project object */;
+}
