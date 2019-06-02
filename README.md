@@ -8,4 +8,5 @@ A client combine Weibo and twitter.
 Use cocoaPods.  
 I am modifying my previous project.  
 Sorry for the Chinese project name and commit, It is hard to change now.  
-Because Twitter now limits the development of client, so I use web to realise ti.  
+Because Twitter now limits the development of client, The API needs apply before.
+I use web to realise basic Twitter function.  
