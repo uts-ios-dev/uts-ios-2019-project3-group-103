@@ -1,6 +1,7 @@
 # uts-ios-2019-project3-group-192
 
-Hi I am Zeren  
+Hi I am Zeren.
+My number is 12802690.
 From Monday class 4pm.  
 My group just me.  
 There is my ios project called Twibo.  
