@@ -1,0 +1,135 @@
+﻿<mockup version="5.3" minAllowVersion="5.3" ID="D20DB403-D026-4949-8EEF-A0DDA905DFE2" platform="MtMobile" defaultW="375" defaultH="812" measureW="375" measureH="812" screenOrientation="MoPortrait" mobileScreenScale="1.77777779102325" clipArea="(0,0,0,0)">
+  <controls controlCount="19">
+    <control controlID="8D862FA0-AB36-4732-B628-3A132695F292" controlTypeID="Line" x="0" y="42" w="373" h="1" zOrder="0">
+      <font family="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" displayName="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <textSize>14</textSize>
+      <lineSpacing>0</lineSpacing>
+      <selectedIndex>-1</selectedIndex>
+      <controlPoint>(186,0)</controlPoint>
+      <startPoint>(0,0)</startPoint>
+      <endPoint>(373,0)</endPoint>
+    </control>
+    <control controlID="F94AC75D-17A7-46D6-A328-994A873C5C5F" controlTypeID="Label" x="146" y="13" w="85" h="19" zOrder="1">
+      <font family="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" displayName="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>Weibo+name</text>
+      <lineSpacing>0</lineSpacing>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="AD724F95-65A1-4007-B3BC-093F52BC8D9F" controlTypeID="Label" x="136" y="384" w="101" h="19" zOrder="2">
+      <font family="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" displayName="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>Weibo+Content</text>
+      <lineSpacing>0</lineSpacing>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="3E60A030-18E2-4CE2-919E-ADEE586CB9CB" controlTypeID="Circle" x="27" y="760" w="42" h="42" zOrder="3">
+      <font family="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" displayName="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <textSize>14</textSize>
+      <selectedIndex>-1</selectedIndex>
+      <shapeBorderType>SbEllipse</shapeBorderType>
+    </control>
+    <control controlID="550F507B-1B73-4619-8E35-2D632CA73E89" controlTypeID="Circle" x="99" y="760" w="42" h="42" zOrder="4">
+      <font family="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" displayName="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <textSize>14</textSize>
+      <selectedIndex>-1</selectedIndex>
+      <shapeBorderType>SbEllipse</shapeBorderType>
+    </control>
+    <control controlID="BF30500C-32D5-4F1F-9629-6CC3B5DF427C" controlTypeID="Circle" x="231" y="760" w="42" h="42" zOrder="5">
+      <font family="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" displayName="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <textSize>14</textSize>
+      <selectedIndex>-1</selectedIndex>
+      <shapeBorderType>SbEllipse</shapeBorderType>
+    </control>
+    <control controlID="B3BEDE4E-9352-415F-A5FA-AF3003A65F3C" controlTypeID="Circle" x="306" y="760" w="42" h="42" zOrder="6">
+      <font family="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" displayName="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <textSize>14</textSize>
+      <selectedIndex>-1</selectedIndex>
+      <shapeBorderType>SbEllipse</shapeBorderType>
+    </control>
+    <control controlID="0C2A5DB7-6137-44DE-A7D3-E0493C01AEB6" controlTypeID="Label" x="20" y="770" w="58" h="19" zOrder="7">
+      <font family="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" displayName="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>WeiHom</text>
+      <lineSpacing>0</lineSpacing>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="06ABBCDB-0510-477A-8252-AF8C2A531B72" controlTypeID="Label" x="92" y="770" w="53" h="19" zOrder="8">
+      <font family="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" displayName="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>WeiMes</text>
+      <lineSpacing>0</lineSpacing>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="A39A5725-0806-4D30-81F5-8A1ABC47EA8E" controlTypeID="Label" x="224" y="770" w="55" h="19" zOrder="9">
+      <font family="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" displayName="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>TwiHom</text>
+      <lineSpacing>0</lineSpacing>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="1086E623-4E8B-4B45-96DA-DA8BEF918379" controlTypeID="Label" x="299" y="770" w="50" h="19" zOrder="10">
+      <font family="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" displayName="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>TwiMes</text>
+      <lineSpacing>0</lineSpacing>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="6A16C2F6-BF81-4021-B44D-1F265F5A42EE" controlTypeID="Line" x="-2" y="756" w="377" h="1" zOrder="11">
+      <font family="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" displayName="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <textSize>14</textSize>
+      <lineSpacing>0</lineSpacing>
+      <selectedIndex>-1</selectedIndex>
+      <controlPoint>(189,0)</controlPoint>
+      <startPoint>(1,0)</startPoint>
+      <endPoint>(377,0)</endPoint>
+    </control>
+    <control controlID="266656E2-061B-49DE-B74E-F2305FB172B3" controlTypeID="HotSpot" x="27" y="760" w="42" h="42" zOrder="12">
+      <links eventType="AtClick" animate="AmNone" animateAutoDelay="0" animateDuration="500">
+        <link targetPageID="D20DB403-D026-4949-8EEF-A0DDA905DFE2" linkType="ltPageLink" isApplyIncludePage="False" title="%E5%BE%AE%E5%8D%9A%E9%A6%96%E9%A1%B5">
+          <area shape="0" alt="" ID="{8F6D70AD-047B-45F9-AC26-8EE363BF77BA}" coords="(0,0,42,42)"/>
+        </link>
+      </links>
+    </control>
+    <control controlID="ED56F6E1-3790-4C83-9C44-A0A89E9F8A57" controlTypeID="HotSpot" x="99" y="760" w="42" h="42" zOrder="13">
+      <links eventType="AtClick" animate="AmNone" animateAutoDelay="0" animateDuration="500">
+        <link targetPageID="DFC4AC59-D8A7-4247-A280-7670750D3BC1" linkType="ltPageLink" isApplyIncludePage="False" title="%E5%BE%AE%E5%8D%9A%E6%B6%88%E6%81%AF">
+          <area shape="0" alt="" ID="{8F6D70AD-047B-45F9-AC26-8EE363BF77BA}" coords="(0,0,42,42)"/>
+        </link>
+      </links>
+    </control>
+    <control controlID="E363F59F-91B3-42C4-9458-FF986031B897" controlTypeID="HotSpot" x="231" y="760" w="42" h="42" zOrder="14">
+      <links eventType="AtClick" animate="AmNone" animateAutoDelay="0" animateDuration="500">
+        <link targetPageID="0EFDAADA-03B5-45E9-8FC5-DADBF3815EDC" linkType="ltPageLink" isApplyIncludePage="False" title="Twitter+Home">
+          <area shape="0" alt="" ID="{BAD4463D-EC27-4118-8C46-0E0E8735C801}" coords="(0,0,42,42)"/>
+        </link>
+      </links>
+    </control>
+    <control controlID="C785598E-62E6-43CE-9D80-BDD69B54F55A" controlTypeID="HotSpot" x="306" y="760" w="42" h="42" zOrder="15">
+      <links eventType="AtClick" animate="AmNone" animateAutoDelay="0" animateDuration="500">
+        <link targetPageID="3CC8DAEE-09CD-4FD9-8598-72EBDDD8E31F" linkType="ltPageLink" isApplyIncludePage="False" title="Twitter+Message">
+          <area shape="0" alt="" ID="{05A19A6F-289D-421A-886A-99B772E78623}" coords="(0,0,42,42)"/>
+        </link>
+      </links>
+    </control>
+    <control controlID="059B32FA-ACCB-4024-A8AB-DFA25BEFDEA7" controlTypeID="Circle" x="165" y="760" w="42" h="42" zOrder="16">
+      <font family="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" displayName="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <textSize>14</textSize>
+      <selectedIndex>-1</selectedIndex>
+      <shapeBorderType>SbEllipse</shapeBorderType>
+    </control>
+    <control controlID="FCF9599F-A09D-4149-A55E-3BE8C21B888D" controlTypeID="Label" x="171" y="770" w="30" h="19" zOrder="17">
+      <font family="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" displayName="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>New</text>
+      <lineSpacing>0</lineSpacing>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="62316A6D-D2DA-445D-B46A-BF11BC2908AB" controlTypeID="HotSpot" x="165" y="759" w="42" h="42" zOrder="18">
+      <links eventType="AtClick" animate="AmNone" animateAutoDelay="0" animateDuration="500">
+        <link targetPageID="2B030DCE-1A05-4D6E-9CF4-4E17159DC6FF" linkType="ltPageLink" isApplyIncludePage="False" title="New">
+          <area shape="0" alt="" ID="{8F6D70AD-047B-45F9-AC26-8EE363BF77BA}" coords="(0,0,42,42)"/>
+        </link>
+      </links>
+    </control>
+  </controls>
+  <param>
+    <backgroundColor>4294967295</backgroundColor>
+    <fontSize>0</fontSize>
+    <fontFamily/>
+    <guideLines/>
+  </param>
+</mockup>

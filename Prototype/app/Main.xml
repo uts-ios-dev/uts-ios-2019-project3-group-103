@@ -1,0 +1,29 @@
+﻿<project version="2.9" name="客户端" ID="4DA7C3FA-4D88-4C8B-9BC1-6298756AC37B">
+  <params>
+    <pageParam version="5.3" minAllowVersion="5.3"/>
+    <projectParam version="2.9" minAllowVersion="2.9" platform="MtMobile" orientation="MoPortrait" mobileScreenScale="1.77777779102325" mobileType="mmtIOS" pageSize="(375,812)" backgroundColor="4294967295" fontSize="0" fontFamily="" projectType="ptPersonalProject" isShowTitleIndex="False"/>
+    <previewParam version="1.0"/>
+    <colorParam version="1.0"/>
+  </params>
+  <pages>
+    <page name="Weibo Home" ID="D20DB403-D026-4949-8EEF-A0DDA905DFE2" expanded="True" code="hFtt8TQveF" thumbCode="eGiXHqvYge" status="psWhite" isfolder="False" isshownode="True"/>
+    <page name="Weibo Message" ID="DFC4AC59-D8A7-4247-A280-7670750D3BC1" expanded="True" code="UWmiu5PSdB" thumbCode="UWmiu5PSdB" status="psWhite" isfolder="False" isshownode="True"/>
+    <page name="Twitter Home" ID="0EFDAADA-03B5-45E9-8FC5-DADBF3815EDC" expanded="True" code="GyUN1CBgsK" thumbCode="GyUN1CBgsK" status="psWhite" isfolder="False" isshownode="True"/>
+    <page name="Twitter Message" ID="3CC8DAEE-09CD-4FD9-8598-72EBDDD8E31F" expanded="False" code="iWApYYSbPO" thumbCode="iWApYYSbPO" status="psWhite" isfolder="False" isshownode="True"/>
+    <page name="New" ID="2B030DCE-1A05-4D6E-9CF4-4E17159DC6FF" expanded="True" code="QYhQGrcdua" thumbCode="QYhQGrcdua" isLastOpen="True" status="psWhite" isfolder="False" isshownode="True"/>
+  </pages>
+  <trash>
+    <page name="页面1" ID="703DB23E-EAA8-49C5-A322-C992678A5406" expanded="True" code="wWGxkVt9Td" thumbCode="dh9I1pMocx" status="psWhite" isfolder="False" isshownode="True"/>
+    <page name="页面2" ID="F54FE4D0-FC22-4D63-8E05-7F70D09FADFE" expanded="True" code="W1xbRLTDDw" thumbCode="HNAw1YpFyj" status="psWhite" isfolder="False" isshownode="True"/>
+    <page name="页面" ID="49C49CF7-4487-4CFD-8348-77B9E270783F" expanded="True" code="yeh1At4Ixs" thumbCode="SxorAv2v4v" status="psWhite" isfolder="False" isshownode="True"/>
+    <page name="页面" ID="A544774B-A487-4649-ABA0-C292760F8B0A" expanded="False" code="pucRRspbT7" thumbCode="eSO4EujSaB" isLastOpen="True" status="psWhite" isfolder="False" isshownode="True"/>
+    <page name="页面" ID="FB387E8E-2690-44D2-8AD1-1936A6B6B52C" expanded="False" code="cpfNsOXAm4" thumbCode="ZmkPrDprka" isLastOpen="True" status="psWhite" isfolder="False" isshownode="True"/>
+    <page name="推特消息" ID="678CE135-BB01-4569-AD95-9F55D4F8B4CC" expanded="False" code="pqNKtuzMJX" thumbCode="" isLastOpen="True" status="psWhite" isfolder="False" isshownode="True"/>
+    <page name="推特首页" ID="597A7A33-9D64-4EEC-8F3B-3F43E788A154" expanded="False" code="xE8Rs3vxUs" thumbCode="hLS8Cq8AqP" isLastOpen="True" status="psWhite" isfolder="False" isshownode="True"/>
+    <page name="推特消息" ID="8C0D2DD1-4CBC-426E-910B-7299AFE54DEE" expanded="False" code="b5dM6UnIcF" thumbCode="lkPwFQCVSf" status="psWhite" isfolder="False" isshownode="True"/>
+    <page name="设置" ID="6271A315-B306-4FF1-92F6-054036AACB18" expanded="True" code="z7a77bssOB" thumbCode="3WBvQslv9H" status="psWhite" isfolder="False" isshownode="True"/>
+  </trash>
+  <deletes/>
+  <masters/>
+  <images/>
+</project>
